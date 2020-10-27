@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import com.bitm.SeleniumOnlineProject.DataProvider.LoginDataProvider;
 import com.bitm.SeleniumOnlineProject.Utils.DriverManager;
 import com.bitm.SeleniumOnlineProject.Utils.UrlTextUtils;
 import com.bitm.SeleniumOnlineProject.Utils.XpathUtils;
@@ -24,7 +26,7 @@ public class LoginTest {
 		Assert.assertEquals(chdriver.getTitle(), UrlTextUtils.Text.LoginPageTitle);
 		System.out.println("Login page title matched");	
 	}
-	@Test(dependsOnMethods = "CheckLoginPageTitle")
+	@Test(dependsOnMethods = "CheckLoginPageTitle", dataProvider = "LoginData", dataProviderClass = LoginDataProvider.class)
 	public void Login ()
 	{
 		chdriver.findElement(By.xpath(XpathUtils.LoginXpath.user_name)).sendKeys("Admin");
