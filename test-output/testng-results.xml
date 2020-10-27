@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24920" started-at="2020-10-27T01:55:31 BDT" finished-at="2020-10-27T01:55:56 BDT">
+  <suite name="Default suite" duration-ms="15488" started-at="2020-10-28T02:40:14 BDT" finished-at="2020-10-28T02:40:29 BDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24920" started-at="2020-10-27T01:55:31 BDT" finished-at="2020-10-27T01:55:56 BDT">
+    <test name="Default test" duration-ms="15488" started-at="2020-10-28T02:40:14 BDT" finished-at="2020-10-28T02:40:29 BDT">
       <class name="com.bitm.SeleniumOnlineProject.Test.LoginTest">
-        <test-method status="PASS" signature="CheckLoginPageTitle()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@22555ebf]" name="CheckLoginPageTitle" duration-ms="15621" started-at="2020-10-27T01:55:31 BDT" finished-at="2020-10-27T01:55:46 BDT">
+        <test-method status="PASS" signature="CheckLoginPageTitle()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@4bbfb90a]" name="CheckLoginPageTitle" duration-ms="11001" started-at="2020-10-28T02:40:14 BDT" finished-at="2020-10-28T02:40:25 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckLoginPageTitle -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@22555ebf]" name="Login" duration-ms="9239" started-at="2020-10-27T01:55:46 BDT" depends-on-methods="com.bitm.SeleniumOnlineProject.Test.LoginTest.CheckLoginPageTitle" finished-at="2020-10-27T01:55:56 BDT">
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@4bbfb90a]" name="Login" duration-ms="4430" started-at="2020-10-28T02:40:25 BDT" depends-on-methods="com.bitm.SeleniumOnlineProject.Test.LoginTest.CheckLoginPageTitle" finished-at="2020-10-28T02:40:29 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
