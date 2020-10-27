@@ -30,6 +30,7 @@ public class LoginTest {
 		chdriver.findElement(By.xpath(XpathUtils.LoginXpath.user_name)).sendKeys("Admin");
 		chdriver.findElement(By.xpath(XpathUtils.LoginXpath.password)).sendKeys("admin123");
 		chdriver.findElement(By.xpath(XpathUtils.LoginXpath.loginbtn)).click();
+		System.out.println("Login Done");
 				
 	}
 	
